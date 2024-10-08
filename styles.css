@@ -1,0 +1,20 @@
+* {
+    font-family: 'Satoshi', sans-serif;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.formWrap {
+    max-width: 420px;
+    display: grid;
+    gap: 24px;
+}
+
+fieldset {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 12px;
+}
