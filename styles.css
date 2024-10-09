@@ -2,19 +2,53 @@
     font-family: 'Satoshi', sans-serif;
 }
 
+body {
+    background-color: #fafafa;
+}
+
 .container {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
+    gap: 24px;
 }
 
 .formWrap {
-    max-width: 420px;
     display: grid;
-    gap: 24px;
+    gap: 16px;
 }
 
 fieldset {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    gap: 12px;
+    gap: 8px;
+    border: none;
+    padding: 0;
+}
+
+label {
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+    color: #27272a;
+}
+
+.inputField > input {
+    display: block;
+    border: 1px solid #e4e4e7;
+    border-radius: 8px;
+    padding: 8px 12px;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+}
+
+input::placeholder {
+    color: #71717a;
+}
+
+/* Image */
+
+.imgWrap {
+    background-color: black;
+    border-radius: 24px;
 }
